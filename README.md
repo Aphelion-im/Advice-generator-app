@@ -1,4 +1,4 @@
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/905b290c-a526-4ff6-9fa3-d24b55cffe99/deploy-status)](https://app.netlify.com/sites/aphelion-advice-generator-app/deploys)
 # Frontend Mentor - Advice generator app solution
 
 This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github repo](https://github.com/Aphelion-im/Advice-generator-app)
+- Live Site URL: [Advice generator app](https://aphelion-advice-generator-app.netlify.app)
 
 ## My process
 

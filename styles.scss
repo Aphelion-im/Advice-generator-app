@@ -55,8 +55,8 @@ h3 {
 }
 
 ::selection {
-  color: #fff;
-  background-color: red;
+  color: $clr-dark-grayish-blue;
+  background-color: $clr-neon-green;
 }
 
 html {
@@ -69,9 +69,9 @@ body {
   font-family: $ff-main;
   font-size: 1.6rem;
   background-color: $clr-dark-blue;
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   -webkit-font-smoothing: antialiased;
   line-height: 1.5;
@@ -101,6 +101,8 @@ button {
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 3rem;
+  color: $clr-white;
 }
 
 .attribution a {
