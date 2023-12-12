@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
+
+/* Variables */
+$clr-light-cyan: hsl(193, 38%, 86%);
+$clr-neon-green: hsl(150, 100%, 66%);
+$clr-grayish-blue: hsl(217, 19%, 38%);
+$clr-dark-grayish-blue: hsl(217, 19%, 24%);
+$clr-dark-blue: hsl(218, 23%, 16%);
+$clr-white: #fff;
+$fw-normal: 400;
+$fw-bold: 700;
+$fw-quote: 800; // Extra bold
+$ff-main: 'Manrope', sans-serif;
+;
+
+/* Global styles */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1;
+}
+
+::selection {
+  color: #fff;
+  background-color: red;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+  font-size: 62.5%; // 10 pixels = 1rem
+}
+
+body {
+  font-family: $ff-main;
+  font-size: 1.6rem;
+  background-color: $clr-dark-blue;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+/* Remove the typical button styling on the Mac */
+button {
+  background-color: #bbb;
+  border: none;
+  color: #222;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  &:hover {
+    filter: brightness(110%);
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: $clr-neon-green;
+}
+
+/* Advice generator */
+.advice-generator {
+  width: 90%;
+  border-radius: 2rem;
+  background-color: $clr-dark-grayish-blue;
+  color: $clr-white;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  padding: 3rem 2rem 5.5rem 2rem;
+  gap: 2rem;
+  text-align: center;
+  max-width: 375px;
+
+  h1 {
+    color: $clr-neon-green;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: $fw-bold;
+  }
+
+  .quote-advice {
+    font-weight: $fw-quote;
+    font-size: 2rem;
+  }
+
+  .circle {
+    background-color: $clr-neon-green;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -2.4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: box-shadow 100ms ease-in;
+
+    &:hover {
+      -webkit-box-shadow: 0 0 30px 3px rgba(82, 255, 169, 0.9);
+      -moz-box-shadow: 0 0 30px 3px rgba(82, 255, 169, 0.9);
+      box-shadow: 0 0 30px 3px rgba(82, 255, 169, 0.9);
+    }
+  }
+
+
+  .dice-icon {
+    width: 40%;
+    height: 40%;
+  }
+
+
+}
+
+
+/********** Media Queries **********/
+@media screen and (min-width: 768px) {
+}
