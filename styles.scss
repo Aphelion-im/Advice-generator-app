@@ -11,8 +11,6 @@ $fw-normal: 400;
 $fw-bold: 700;
 $fw-quote: 800; // Extra bold
 $ff-main: 'Manrope', sans-serif;
-;
-
 /* Global styles */
 *,
 *::before,
@@ -109,6 +107,10 @@ button {
   color: $clr-neon-green;
 }
 
+.hidden {
+  display: none;
+}
+
 /* Advice generator */
 .advice-generator {
   width: 90%;
@@ -161,15 +163,11 @@ button {
     }
   }
 
-
   .dice-icon {
     width: 40%;
     height: 40%;
   }
-
-
 }
-
 
 /********** Media Queries **********/
 @media screen and (min-width: 768px) {
