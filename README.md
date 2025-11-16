@@ -61,7 +61,8 @@ Perhaps, some day I will turn it into a React or Vue project.
 
 - [CSS box shadow generator](https://cssgenerator.org/box-shadow-css-generator.html) - Handy tool to generate CSS shadows.
 - [CSS glow generator](https://cssbud.com/css-generator/css-glow-generator/) - Handy tool to generate CSS glows.
-- [Advice Slip API](https://validator.w3.org/nu/#textarea) - HTML & CSS validator to find errors and validate your code.
+- [HTML & CSS validator](https://validator.w3.org/nu/#textarea) - HTML & CSS validator to find errors and validate your code.
+- [Advice Slip API](https://api.adviceslip.com)
 - [Axios](https://cdnjs.com/libraries/axios) - To use Axios without installing it using NPM and get extra dependencies.
 
 ## Author
